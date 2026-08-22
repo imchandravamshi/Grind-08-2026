@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { Crud } from '../crud';
 
 
 @Component({
@@ -9,4 +10,7 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './user.scss',
   templateUrl: './user.html',
 })
-export class User {}
+
+export class User {
+ 
+}

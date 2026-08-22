@@ -1,6 +1,6 @@
 # AngularProject1
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.5.
+This project uses [Angular CLI](https://github.com/angular/angular-cli) version 20.
 
 ## Development server
 
@@ -11,6 +11,16 @@ ng serve
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+## Users API
+
+The CRUD table reads users from JSON Server. Start it in a second terminal:
+
+```bash
+npm run api
+```
+
+Keep the API running at `http://localhost:3000` while using the Angular application.
 
 ## Code scaffolding
 

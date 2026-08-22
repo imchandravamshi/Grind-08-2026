@@ -1,9 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { User } from './user/user';
+import { NgModel } from '@angular/forms';
+import { CRUD } from './crud/crud';
 
 @Component({
-  imports: [RouterOutlet, User],
+  imports: [RouterOutlet, User, CRUD],
   selector: 'app-root',
   styleUrl: './app.scss',
   templateUrl: './app.html',
